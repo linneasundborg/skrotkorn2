@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrot & Korn - Sortiment</title>
+    <link rel="stylesheet" href="css/sort.css">
+</head>
+<header>
+    <section>
+    <div class="myflexbox">
+        <div class="serc2"></div>
+        <img class="logo" src="image/logga.png" height="40px" length="40vw">
+        <div class="serc"></div>
+        <div style="text-align: center;" class="serc3">🔍 Sök...</div>
+        <div class="serc"></div>
+        <div class="serc4">🛒</div>
+        <div class="serc4">👤</div>
+    </div>
+
+    <div class="myflexbox2">
+        <img class="pic" src="image/header.jpg" height="400px" length="100vw">
+    </div>
+   
+    <body style="text-align: center;" onload="buildMenu()">
+        <ul id="menu"></ul>
+    </section>
+</header>
+<br><br><br>
+<section>
+    <h1 style="text-align: center;">Tjänster</h1>
+    <div class="poi">
+   <br>
+ <div class="boxflex2">
+     <img class="pic" src="image/header.jpg" height="200px" length="50vw">
+     <img class="pic" src="image/header.jpg" height="200px" length="50vw">
+     <img class="pic" src="image/header.jpg" height="200px" length="50vw">
+ </div>
+
+ <div class="boxflex">
+    <div class="bild">
+        <h2 style="text-align: center;">Anlita byggare</h2>
+        <p>Pris ex moms: <br> Pris ink moms:</p>
+    </div>
+    <div class="bild">
+        <h2 style="text-align: center;">Maskin uthyrning</h2>
+        <p>Pris ex moms: <br> Pris ink moms:</p>
+    </div>
+    <div class="bild">
+        <h2 style="text-align: center;">Gräva/Spränga</h2>
+        <p>Pris ex moms: <br> Pris ink moms:</p>
+    </div>
+    </div>
+    <br><br><br><br><p class="punk">.</p><br><br><br><br>
+    </div>
+
+</section>
+
+<section>
+    <div class="kalc">
+        <br>
+    <h1 style="text-align: center;">Pris kalkyl</h1>
+<label for="tal1">Pris</label>
+<input type="number" id="tal1">
+<br><br>
+ <label for="tal2">Pris</label>
+ <input type="number" id="tal2">
+<br><br>
+ <input type="button" value="Summera" onclick="calculate()">
+ <h2 id="resultat"></h2>
+ </div>
+</section>
+
+<br><br>
+<section>
+        <div class="myflexbox3">
+            <div class="serc5">
+                <p style="text-align: center;" class="yolo">Rubrik</p>
+                <p style="text-align: left;" class="yolo2"> - hej<br><br> - hej<br><br> - hej<br><br> - hej</p>
+            </div>
+    
+            <div class="serc7"></div>
+    
+            <div class="serc6">
+                    <label for="review">Skriv en recension</label> <br>
+                    <textarea id="review" name="review" rows="11" cols="60"></textarea>
+            </div>
+    
+            <div class="serc7"></div>
+    
+            <div class="serc5">
+                <p style="text-align: center;" class="yolo">Rubrik</p> 
+                <p style="text-align: center;" class="yolo2"> - hej<br><br> - hej<br><br> - hej<br><br> - hej</p>
+            </div>
+</section>
+    
+    <script src="js/sort.js"></script>
+</body>
+</html>

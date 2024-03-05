@@ -1,0 +1,224 @@
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 20px;
+    flex-basis: 100wv;
+    background-color: rgb(237, 146, 97);
+    border: 2px solid #bf4d0b
+}
+
+li a {
+    color: #bf4d0b;
+    padding: 8px 16px;
+    text-decoration: none;
+    display:inline;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    height: 30px;
+    
+}
+
+li:last-child {
+    border-bottom: none;
+
+}
+
+li a.active {
+    background-color: #cfd1dd;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #f1ce9c39;
+    color: #bf4d0b;
+}
+
+.myflexbox2{
+    display: flex;
+    flex-direction: row;
+    }
+
+.myflexbox2 div{
+        background-color: #101274;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .myflexbox3{
+        display: flex;
+        flex-direction: row;
+     }
+    
+    .myflexbox3 div{
+        color: #ffffff;
+        background-color: rgb(236, 151, 81);
+        padding: 40px;
+        margin: 0px;
+        border-bottom: #FF8A00;
+     }
+    
+    .serc5{
+        flex-basis: 20vw;
+        height: 150px;
+    }
+    
+    .serc6{
+        flex-basis: 60vw;
+        height: 150px;
+    }
+    
+    .serc7{
+        flex-basis: 10vw;
+        height: 150px;
+    }
+    
+    .yolo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+    }
+    
+    .yolo2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-small
+    } 
+    
+.pic{
+    flex-basis: 100vw;
+}
+
+
+.myflexbox{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    }
+
+.myflexbox div{
+        color: #f39122;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 0px;
+        border-bottom: #FF8A00;
+    }
+
+.serc{
+    flex-basis: 40vw;
+    height: 30px;
+}
+
+.serc2{
+    flex-basis: 1vw;
+    height: 30px;
+}
+
+.serc3{
+    flex-basis: 30vw;
+    height: 30px;
+}
+
+.serc4{
+    flex-basis: 5vw;
+    height: 30px;
+}
+
+.logo{
+    height: 50px;
+    width: 1000px;
+    flex-basis: 50px;
+}
+
+.oss{
+    padding-left: 0px;
+    color: rgb(7, 7, 7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 525px;
+}
+
+.formu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 100px;
+    border-style: solid;
+    border-width: 0,1px;
+    border-color: black;
+    border-radius: 0px;
+}
+
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex1 div{
+    color: #ffffff;
+    background-color: rgba(7, 24, 69, 0.829);
+    padding: 20px;
+    margin: 0px;
+    border-bottom: #FF8A00;
+
+}
+
+.girl{
+    flex-basis: 50vw;
+    height: 300px;
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.girl1{
+    flex-basis: 40vw;
+    height: 300px;
+}
+
+.girl2{
+    flex-basis: 20vw;
+    height: 300px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex2 div{
+    color: #ffffff;
+    background-color: rgba(7, 24, 69, 0.829);
+    padding: 20px;
+    margin: 0px;
+    border-bottom: #FF8A00;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex3 div{
+    color: #ffffff;
+    background-color: rgba(7, 24, 69, 0.829);
+    padding: 20px;
+    margin: 0px;
+    border-bottom: #FF8A00;
+}
+
